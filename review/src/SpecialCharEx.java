@@ -1,0 +1,16 @@
+
+public class SpecialCharEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println('\'');
+		System.out.println("abc\t123\b456");	// \b에 의해 3이 지워진다.
+		System.out.println('\n');
+		System.out.println("\"Hello\"");
+		System.out.println("c:\\");
+		
+
+	}
+
+}
